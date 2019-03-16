@@ -1,0 +1,5 @@
+/vendor
+/config/config.php
+/config/mail.php
+.idea/
+/public/styles/bulma.css

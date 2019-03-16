@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+body { 
+    margin: 0;
+}
+.table
+{
+    font: 14px Verdana;
+    text-align: center;
+}
+
+.employees-list-item {
+    width: 100%;
+    line-height: 150%;
+    cursor: pointer;
+}
+
+.employees-list-item .d-inline-block {
+    vertical-align: middle;
+}
+
+.employees-list-item .employee-item-id {
+    width: 4%;
+    text-align: center;
+}
+
+.employees-list-item .employee-item-word {
+    width: 25%;
+    text-align: center;
+}
+
+.employees-list-item .employee-item-translation {
+    width: 25%;
+    text-align: center;
+}
+
+.employees-list-item .employee-item-lesson {
+    width: 20%;
+    text-align: center;
+}
+
+.employees-list-item .employee-item-delete {
+    width: 13%;
+    text-align: center;
+}
+
+.employees-list-item .employee-item-edit {
+    width: 13%;
+    text-align: center;
+}
+
+.employees-navbar {
+    background: #f2f2f2;
+}
+
+.employees-navbar .item-order {
+    position: relative;
+    color: #6b6b6b
+}
+
+.employees-navbar .item-order:hover {
+    color: #252525;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.employees-navbar .active {
+    color: #0a0a0a;
+    font-weight: 500;
+}
+
+.active.desc:after {
+    content: '>';
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.active.asc:after {
+    content: '<';
+    margin-left: 10px;
+    display: inline-block;
+    position: absolute;
+    moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

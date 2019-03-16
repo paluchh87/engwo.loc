@@ -1,0 +1,21 @@
+{
+    "require": {
+        "php": "^7.1.3",
+        "duncan3dc/speaker": "1.1.0",
+        "mpdf/mpdf":"*",
+        "delight-im/auth": "^8.1",
+        "tamtamchik/simple-flash": "^1.2",
+        "respect/validation": "^1.1",
+        "swiftmailer/swiftmailer": "^6.0"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "controllers\\": "controllers",
+            "lib\\": "lib",
+            "models\\": "models",
+            "components\\": "components"
+        }
+    }
+
+}
